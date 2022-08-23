@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/SherrickM/sum-it-up/issues"
   },
-  "homepage": "https://github.com/SherrickM/sum-it-up#readme",
+  "homepage": "https://sum-it-up-rulz.herokuapp.com/",
   "devDependencies": {
     "concurrently": "^6.2.0"
   }
