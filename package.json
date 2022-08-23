@@ -1,0 +1,27 @@
+{
+  "name": "sum-it-up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SherrickM/sum-it-up.git"
+  },
+  "keywords": [],
+  "author": "sum it up team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SherrickM/sum-it-up/issues"
+  },
+  "homepage": "https://github.com/SherrickM/sum-it-up#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
